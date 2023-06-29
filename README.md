@@ -6,5 +6,5 @@ In order to add your own repository as a featured cheatsheet repo, please [edit 
 
 ### Usage
 ```
-navi repo add denisidoro/navi-tldr-pages
+navi repo add Twilight4/cheats
 ```
