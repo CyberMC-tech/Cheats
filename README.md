@@ -21,7 +21,7 @@ Clone your repo using `git` to the correct folder
 ```bash
 user="Twilight4"
 repo="cheats"
-git clone "https://github.com/${user}/${repo}" ~/workspace/cheats "$(navi info cheats-path)/${user}__${repo}"
+git clone "https://github.com/${user}/${repo}" "$(navi info cheats-path)/${user}__${repo}"
 ```
 Then, add a cron job:
 ```bash
