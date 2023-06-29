@@ -1,0 +1,4 @@
+% BB - favfreak
+
+# Usage
+cat urls.txt | favfreak -o output

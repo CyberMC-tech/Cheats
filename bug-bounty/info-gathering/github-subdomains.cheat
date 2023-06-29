@@ -1,0 +1,6 @@
+% BB - github-subdomains
+
+# 1. Example usage command
+github-subdomains -t [string] -d twitch.tv > twitch.tv
+# 2. Example usage command
+cat twitch.tv | wc -l

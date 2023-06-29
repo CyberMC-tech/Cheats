@@ -1,0 +1,7 @@
+% BB - dnsmasscan
+
+# Usage
+dnsmasscan input_file dns_output_file [masscan_options]
+
+# Usage 2
+dnsmasscan example.txt dns.log -p80,443 -oG masscan.log

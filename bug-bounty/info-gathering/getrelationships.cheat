@@ -1,0 +1,6 @@
+% BB - getrelationships
+
+# 1. Scrapes from root domains for relationships (like builtwith)
+python3 getrelationship.py <domain1,domain2> <cookie>
+# 2. Scrapes from root domains for relationships (like builtwith)
+cat targets.txt | python3 getrelationship.py <cookie>
