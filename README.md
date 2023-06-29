@@ -7,8 +7,7 @@ navi repo add Twilight4/cheats
 In order to add your own repository as a featured cheatsheet repo, please [edit this file](https://github.com/denisidoro/cheats/edit/master/featured_repos.txt). This list will be displayed when `navi repo browse` is run.
 
 ### Auto-updating repositories
-However, you can achieve this by using `git` and `crontab`.
-Clone your repo using `git` to the correct folder
+you can achieve auto-updating repository by using `git` and `crontab`. Clone your repo using `git` to the desired folder (if you don't want to use the default navi directory then you need to define the custom path in navi config)
 ```bash
 user="Twilight4"
 repo="cheats"
