@@ -1,4 +1,4 @@
-Cheatsheets for [navi](https://github.com/denisidoro/navi).
+## Cheatsheets for [navi](https://github.com/denisidoro/navi).
 
 If you want to add a cheatsheet for a new command, it's worth checking out [navi-tldr-pages](https://github.com/denisidoro/navi-tldr-pages).
 
