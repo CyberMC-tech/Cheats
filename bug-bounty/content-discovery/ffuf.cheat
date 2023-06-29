@@ -1,3 +1,5 @@
+% BB - ffuf
+
 # Usage 
 ffuf -c -v -t XX -w wordlist.txt -u domain.com
 

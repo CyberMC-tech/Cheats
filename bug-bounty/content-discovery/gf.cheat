@@ -1,2 +1,4 @@
+% BB - gf
+
 # Usage
 cat urls.txt | gf sqli

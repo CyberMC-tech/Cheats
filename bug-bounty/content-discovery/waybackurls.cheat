@@ -1,0 +1,10 @@
+% BB - waybackurls
+
+# 1. Recursion - Subdomain bruting to guess sensitive paths that might exist with 401 responses
+amass enum -brute -d domain.com -src -o brute-domains.txt
+
+# 2. Check waybackmachine and valid urls from the output 
+cat brute-domains.txt | waybackurls > waybackurls.txt
+
+# 3. Feed it to httprobe
+cat waybackurls.txt | httprobe -t 1000
