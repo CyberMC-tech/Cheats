@@ -26,7 +26,7 @@ git clone "git@github.com:${user}/${repo}" ~/workspace/Twilight4__cheats
 Then, add a cron job:
 ```bash
 crontab -e
-*/0 11 * * * bash -c 'cd "$(/usr/local/bin/navi info cheats-path)/<user>__<repo>" && /usr/local/bin/git pull -q origin master'
+*/0 11 * * * bash -c 'cd ~/workspace/cheats/Twilight4__cheats && /usr/local/bin/git pull -q origin master'
 ```
 Please note the cron job above is just an example and you should edit it accordingly:
 - In this example, the cron job is triggered every day at 11am. [crontab guru](https://crontab.guru/) may come in handy if you want to change this value
