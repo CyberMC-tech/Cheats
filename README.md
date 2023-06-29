@@ -31,4 +31,3 @@ crontab -e
 Please note the cron job above is just an example and you should edit it accordingly:
 - In this example, the cron job is triggered every day at 11am. [crontab guru](https://crontab.guru/) may come in handy if you want to change this value
 - The full paths to `navi` and `git` may differ in your setup. Check their actual values using `which navi` and `which git`
-- Don't forget to replace `<user>__<repo>` with the actual folder name
