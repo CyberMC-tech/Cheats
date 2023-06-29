@@ -1,3 +1,5 @@
+% BB - nuclei
+
 # Look for subdomain takeovers
 nuclei -l httprobe.txt -t /usr/share/nuclei-templates/takeovers/* -v -o output.txt
 

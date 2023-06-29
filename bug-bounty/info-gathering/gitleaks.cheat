@@ -1,8 +1,7 @@
+% BB - gitleaks, bfg
+
 # scan entire git history
 gitleaks detect --source . -v
-
--v              # verbose
--v report.json  # export to file
 
 # bfg - deleting commits
 bfg --delete-files filename.json

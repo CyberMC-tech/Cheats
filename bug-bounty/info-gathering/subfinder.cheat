@@ -1,0 +1,4 @@
+% BB - subfinder
+
+# Usage
+subfinder -d hackerone.com -v
