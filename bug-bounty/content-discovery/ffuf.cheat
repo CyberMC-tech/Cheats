@@ -12,12 +12,3 @@ ffuf -w path/to/postdata.txt -X POST -d "username=admin\&password=FUZZ" -u https
 
 # Discover subdomains using a subdomain list on a target website:
 ffuf -w subdomains.txt -u https://website.com -H "Host: FUZZ.website.com"
-
-# Options
--fc 301 : doesn't show 301 errors
--p      : seconds of `delay` between requests, or a range of random delay.
--mc     : match HTTP status codes, or "all" for everything.
--c      : colorize output.
--t      : number of concurrent threads. (default: 40)
--X      : HTTP method to use.
--H      : header `"Name: Value"`, separated by colon.
