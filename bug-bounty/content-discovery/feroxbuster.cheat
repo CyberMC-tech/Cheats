@@ -1,7 +1,7 @@
 % BB - feroxbuster
 
 # usage
-feroxbuster -u <domain.com> -r
+feroxbuster -u <domain> -r
 
 # with wordlist
-feroxbuster -u <domain.com> -w <wordlist> -t XX -n
+feroxbuster -u <domain> -w <wordlist> -t XX -n
