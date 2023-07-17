@@ -1,10 +1,10 @@
 ## Cheatsheets for [navi](https://github.com/denisidoro/navi)
 ### Usage
-If you want to copy the cheatsheets using navi into the default navi directory issue command:
+To copy the cheatsheets using navi into the default navi directory, run the following command:
 ```bash
 navi repo add Twilight4/cheats
 ```
-In order to add your own repository as a featured cheatsheet repo, please [edit this file](https://github.com/denisidoro/cheats/edit/master/featured_repos.txt). This list will be displayed when `navi repo browse` is run.
+To add your own repository as a featured cheatsheet repo, please edit the [featured_repos](https://github.com/denisidoro/cheats/edit/master/featured_repos.txt) file. This list will be displayed when `navi repo browse` is run.
 
 ### Auto-updating repositories
 To set up auto-updating repository using `git` and `crontab` clone your repo using `git` to the desired folder (if you don't want to use the default navi directory then you need to define the custom path in navi config):
