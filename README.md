@@ -27,12 +27,11 @@ crontab -e
 Note: The example cron job above triggers the update every day at 11 am. If you want to modify the schedule, you can refer to [crontab guru](https://crontab.guru/). Additionally, ensure that the full paths to `navi` and `git` match your setup. You can verify their paths by using the `which navi` and `which git` commands.
 
 ### Translating original tldr files into [navi](https://github.com/denisidoro/navi) compatible format
-If you want to add a cheatsheet for a new command, it's worth checking out [tldr](https://github.com/tldr-pages/tldr) pages. You can copy a cheatsheet from there, convert it to navi format and enhance it:
+If you want to add a cheatsheet for a new command, you can leverage the existing [tldr pages](https://github.com/tldr-pages/tldr). To convert and enhance a tldr cheatsheet into navi format issue commands:
+
 ```bash
 git clone https://github.com/tldr-pages/tldr.git ~/downloads/tldr && cd ~/downloads/tdlr
-cp ~/workspace/Twilight4__cheats/translate.sh ./
+cp ~/workspace/cheats/translate.sh ./
 ./translate.sh
 ```
-- then just copy the interesting cheatsheet to your repo
-- you can check if your [tldr](https://github.com/tldr-pages/tldr) cheatsheet is in the repo running: `navi --tldr <query>`
-- or use cheatsheets from [cheat.sh](https://github.com/chubin/cheat.sh) by running: `navi --cheatsh <query>`
+Then just copy the desired cheatsheet from the tldr repository to your own repository. To check if your [tldr](https://github.com/tldr-pages/tldr) cheatsheet is in the repo, run navi `--tldr <query>`. Alternatively, you can use cheatsheets from [cheat.sh](https://github.com/chubin/cheat.sh) by running navi `--cheatsh <query>`.
