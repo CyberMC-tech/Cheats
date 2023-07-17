@@ -1,4 +1,4 @@
 % RED - john
 
-# read /etc/john/john.conf and look for List.Rules to see all the available rules
+# read /etc/john/john.conf and look for "List.Rules" to see all the available rules
 cat /etc/john/john.conf|grep "List.Rules:" | cut -d"." -f3 | cut -d":" -f2 | cut -d"]" -f1 | awk NF
