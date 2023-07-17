@@ -35,4 +35,4 @@ cp ~/workspace/cheats/translate.sh ./
 ./translate.sh
 ```
 
-Then just copy the desired cheatsheet from the tldr repository to your own repository. To check if your [tldr](https://github.com/tldr-pages/tldr) cheatsheet is in the repo, run navi `--tldr <query>`. Alternatively, you can use cheatsheets from [cheat.sh](https://github.com/chubin/cheat.sh) by running navi `--cheatsh <query>`.
+Then just copy the desired cheatsheet from the tldr repository to your own repository. To check if your tldr cheatsheet is in the repo, run navi `--tldr <query>`. Alternatively, you can use cheatsheets from [cheat.sh](https://github.com/chubin/cheat.sh) by running navi `--cheatsh <query>`.
