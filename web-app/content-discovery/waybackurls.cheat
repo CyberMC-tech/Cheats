@@ -1,7 +1,7 @@
 % WEB - waybackurls
 
 # 1. Recursion - Subdomain bruting to guess sensitive paths that might exist with 401 responses
-amass enum -brute -d domain.com -src -o brute-domains.txt
+amass enum -brute -d <DOMAIN_COM> -src -o brute-domains.txt
 
 # 2. Check waybackmachine and valid urls from the output 
 cat brute-domains.txt | waybackurls > waybackurls.txt

@@ -1,4 +1,4 @@
 % WEB - xnlinkfinder 
 
 # Usage
-xnlinkfinder -i domain.com -v -d 2 -sp https://domain.com
+xnlinkfinder -i <DOMAIN_COM> -v -d 2 -sp <HTTPS_DOMAIN_COM>

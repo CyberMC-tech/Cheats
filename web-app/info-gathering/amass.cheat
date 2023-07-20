@@ -4,10 +4,10 @@
 amass intel -asn 46489
 
 # Subdomain Scraping
-amass enum -d domain.com
+amass enum -d <DOMAIN_COM>
 
 # Active Scanning
-amass enum -active -brute -o target.txt -d mailerlite.com
+amass enum -active -brute -o target.txt -d <DOMAIN_COM>
 
 # Validate urls
 cat domains.txt | httprobe
@@ -19,4 +19,4 @@ cat domains.txt | waybackurls > yahoo.urls
 cat yahoo.urls | httprobe -t 1000
 
 # Subdomain bruting
-amass enum -brute -d domain.com -src
+amass enum -brute -d <DOMAIN_COM> -src

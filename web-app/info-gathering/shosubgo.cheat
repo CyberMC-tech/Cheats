@@ -1,4 +1,4 @@
 % WEB - shosubgo
 
 # Usage
-go run main.go -d target.com -s yourAPIKEY
+go run main.go -d <TARGET_IP> -s <your_API_KEY>

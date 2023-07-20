@@ -1,4 +1,4 @@
 % WEB - eyewitness
 
 # Usage
-python eyewitness.py -f httprobe-domains.txt -d eyewit --web
+python eyewitness.py -f <HTTPROBE-DOMAINS_TXT> -d eyewit --web

@@ -14,9 +14,9 @@ echo '1.2.3.4/24' | metabigor scan -o result.txt
 # 1. Only run nmap detail scan based on pre-scan data
 echo '1.2.3.4:21' | metabigor scan -s
 # 2. Only run nmap detail scan based on pre-scan data
-cat list_of_ip_with_port.txt | metabigor scan -c 10 --8 -s -o result.txt
+cat <LIST_OF_IP_WITH_PORT_TXT> | metabigor scan -c 10 --8 -s -o result.txt
 # 3. Only run nmap detail scan based on pre-scan data
-cat list_of_ip_with_port.txt | metabigor scan -c 10 --tmp /tmp/raw-result/ -s -o result.txt
+cat <LIST_OF_IP_WITH_PORT_TXT> | metabigor scan -c 10 --tmp /tmp/raw-result/ -s -o result.txt
 # 4. Only run nmap detail scan based on pre-scan data
 echo '1.2.3.4 -> [80,443,2222]' | metabigor scan -R
 

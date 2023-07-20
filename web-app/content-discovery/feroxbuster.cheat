@@ -1,7 +1,7 @@
 % WEB - feroxbuster
 
-# usage
-feroxbuster -u <domain> -r
+# Usage
+feroxbuster -u <DOMAIN_COM> -r
 
-# with wordlist
-feroxbuster -u <domain> -w <wordlist> -t XX -n
+# With wordlist
+feroxbuster -u <DOMAIN_COM> -w <WORDLIST_TXT> -t XX -n
