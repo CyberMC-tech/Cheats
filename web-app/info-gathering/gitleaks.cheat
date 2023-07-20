@@ -1,4 +1,4 @@
-% BB - gitleaks, bfg
+% WEB - gitleaks, bfg
 
 # scan entire git history
 gitleaks detect --source . -v

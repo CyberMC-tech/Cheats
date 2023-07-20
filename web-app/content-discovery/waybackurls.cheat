@@ -1,4 +1,4 @@
-% BB - waybackurls
+% WEB - waybackurls
 
 # 1. Recursion - Subdomain bruting to guess sensitive paths that might exist with 401 responses
 amass enum -brute -d domain.com -src -o brute-domains.txt

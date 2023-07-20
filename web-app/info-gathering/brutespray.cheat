@@ -1,4 +1,4 @@
-% BB - brutespray
+% WEB - brutespray
 
 # Usage
 brutespray -f og-nmap-scan.txt -t 8 -c -i -v 5 -o brutespray.txt

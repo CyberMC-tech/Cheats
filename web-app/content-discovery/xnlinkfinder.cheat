@@ -1,4 +1,4 @@
-% BB - xnlinkfinder 
+% WEB - xnlinkfinder 
 
 # Usage
 xnlinkfinder -i domain.com -v -d 2 -sp https://domain.com

@@ -1,4 +1,4 @@
-% BB - ffuf
+% WEB - ffuf
 
 # Usage 
 ffuf -c -v -t XX -w <wordlist> -u <domain>

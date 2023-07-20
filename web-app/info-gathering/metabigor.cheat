@@ -1,4 +1,4 @@
-% BB - metabigor
+% WEB - metabigor
 
 # discovery IP of a company/organization
 echo "company" | metabigor net --org -o -v result.txt

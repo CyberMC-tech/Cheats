@@ -1,4 +1,4 @@
-% BB - asnlookup
+% WEB - asnlookup
 
 # ASN lookup
 python asnlookup.py -o "company"

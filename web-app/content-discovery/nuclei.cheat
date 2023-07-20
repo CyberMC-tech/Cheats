@@ -1,4 +1,4 @@
-% BB - nuclei
+% WEB - nuclei
 
 # Look for takeovers and CVEs
 nuclei -l httprobe.txt -t /usr/share/nuclei-templates/takeovers/* -t /usr/share/nuclei-templates/cves/* -o output.txt

@@ -1,4 +1,4 @@
-% BB - feroxbuster
+% WEB - feroxbuster
 
 # usage
 feroxbuster -u <domain> -r

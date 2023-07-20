@@ -1,4 +1,4 @@
-% BB - wordlistgen
+% WEB - wordlistgen
 
 # Usage
 echo bugcrowd | gau | wordlistgen | sort -u

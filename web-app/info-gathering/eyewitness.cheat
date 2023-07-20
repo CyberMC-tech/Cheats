@@ -1,4 +1,4 @@
-% BB - eyewitness
+% WEB - eyewitness
 
 # Usage
 python eyewitness.py -f httprobe-domains.txt -d eyewit --web

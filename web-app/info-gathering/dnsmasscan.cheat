@@ -1,4 +1,4 @@
-% BB - dnsmasscan
+% WEB - dnsmasscan
 
 # Usage
 dnsmasscan input_file dns_output_file [masscan_options]
