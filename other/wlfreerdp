@@ -1,4 +1,4 @@
-% xfreerdp
+% wlfreerdp
 
 # Connection
 xfreerdp /v:<SERVER_IP> /u:<user> /p:<password> +clipboard
