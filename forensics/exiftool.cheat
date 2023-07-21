@@ -1,0 +1,4 @@
+% FOR - exiftool
+
+# Extract metadata from the image
+exiftool <IMAGE_JPG>

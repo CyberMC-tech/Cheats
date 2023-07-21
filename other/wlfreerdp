@@ -1,4 +1,4 @@
 % wlfreerdp
 
-# Connection
+# Connect using wayland protocol
 wlfreerdp /v:<SERVER_IP> /u:<USER> /p:<PASSWORD> +clipboard

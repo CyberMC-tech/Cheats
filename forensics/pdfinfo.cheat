@@ -1,0 +1,4 @@
+% FOR - pdfinfo
+
+# Extract metadata from pdf file
+pdfinfo <DOCUMENT_PDF>

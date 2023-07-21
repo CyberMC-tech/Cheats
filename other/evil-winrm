@@ -1,3 +1,4 @@
 % evil-winrm
 
+# Connect to server
 evil-winrm -i <SERVER_IP> -u <USER> -p <PASSWORD>
